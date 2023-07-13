@@ -1,0 +1,26 @@
+[
+    {
+        "Nombres": "Jesus Alberto",
+        "Apellidos": "Loor Cagua",
+        "Carrera": "Ingenieria en Sistemas",
+        "Teléfono": "0986759708",
+        "Mail": "jesusc@gmail.com",
+        "Clave": "Jesus123" 
+    },
+    {
+        "Nombres": "Sara Raquel",
+        "Apellidos": "Cedeño Mera",
+        "Carrera": "TI",
+        "Teléfono": "0985532140",
+        "Mail": "sarac@gmail.com",
+        "Clave": "Sara123" 
+    },
+    {
+        "Nombres": "Francisco Leonardo",
+        "Apellidos": "Zambrano Moran",
+        "Carrera": "Ingenieria en Software",
+        "Teléfono": "0987654321",
+        "Mail": "franciscoz@gmail.com",
+        "Clave": "FranL123" 
+    }
+]

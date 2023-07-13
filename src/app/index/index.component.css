@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    background-image: url(/assets/Entrada-Principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+}
+
+.login_principal
+{   
+    /*background:#c4c2c2 ;
+    color: rgb(15, 15, 15);*/
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 7px 13px 37px #000;
+    padding: 5px;
+    width: 350px;
+    /*margin: auto;
+    margin-top: 30px;
+    margin-left: 45%;*/
+    background: #dedede;
+    /*Antigua posicion del inicio 
+    /*margin-right: 60%;
+    margin-left: 62%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 4px;*/
+    /*alineacion en medio*/
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.Registrarse
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 7px 13px 37px #000;
+    padding: 5px;
+    width: 400px;
+    background: #dedede;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}

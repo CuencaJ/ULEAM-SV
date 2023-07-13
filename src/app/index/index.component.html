@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secretaria Virtual | Iniciar Sesión</title>
+    <link rel="shortcut icon" href="/assets/LOGO-ULEAM-HORIZONTAL.png" />
+  </head>
+  <body>
+    <div class="login_principal">
+      <img class="logo" src="/assets/LOGO-ULEAM-HORIZONTAL.png" width="150" height="100"/>
+      <div class="titulo"><h2>Inicio de Sesión</h2></div>
+      <form action="inicio" class="form" id="form_index" [formGroup]="formLog" (ngSubmit)="onSubmit()" (submit)="validarFormulario($event)">
+        <div class="Inicio">
+          <div class="correo_ins">
+            <p class="warnings"></p>
+            <span class="detalles">Correo Institucional</span><br />
+            <input formControlName="email" type="email" id="correo_index" placeholder="Ingresa tu correo institucional" />
+            <label for="email"></label>
+          </div>
+          <div class="contraseña_ins">
+            <p class="warnings"></p>
+            <span class="detalles">Contraseña</span><br />
+            <input formControlName="password" type="password" id="clave_index" placeholder="Ingresa tu contraseña" />
+            <label for="password"></label>
+          </div>
+        </div>
+        <div class="button__login">
+          <br />
+          <!--<span><button href="inicio.html"> Iniciar Sesion </button> <br></span>-->
+          <!--<a href="inicio.html"> <input type="button" value="Iniciar Sesion"></a><br>-->
+          <input class="control" type="submit" value="Iniciar Sesión" />
+          <!--<a href="inicio"> <button>Iniciar Sesion</button></a>--> <br />
+          <span>¿No tienes cuenta?
+            <a href="registro" style="text-decoration: none; color: black; font-weight: 600">Registrate</a>
+          </span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
