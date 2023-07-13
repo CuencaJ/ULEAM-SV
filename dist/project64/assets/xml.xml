@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuario>
+    <datos_usuario>
+        <Nombres>Jerson Steven</Nombres>
+        <Apellidos>Cuenca Holguín</Apellidos>
+        <Carrera>Tecnología de la Información</Carrera>
+        <Telefono>0993281458</Telefono>
+        <Mail>jersonstevencuencaholguin@gmail.com</Mail>
+        <Clave>Jerson2023</Clave>
+    </datos_usuario>
+    <datos_usuario>
+        <Nombres>Michelle Solange</Nombres>
+        <Apellidos>Delgado Holguín</Apellidos>
+        <Carrera>Tecnología de la Información</Carrera>
+        <Telefono>0986373919</Telefono>
+        <Mail>solangeholguin@gmail.com</Mail>
+        <Clave>Solange123.</Clave>
+    </datos_usuario>
+</usuario>
+
+
+
+
+
+
+
+
